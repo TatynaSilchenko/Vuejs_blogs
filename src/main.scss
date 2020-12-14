@@ -1,0 +1,24 @@
+.character {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  margin: 10px;
+
+  .avatar {
+    img {
+      width: 200px;
+      height: auto;
+    }
+  }
+
+  .info-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+
